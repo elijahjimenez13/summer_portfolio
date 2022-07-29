@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="./js/main.js"></script>
+
+  <title>GENIUS NAME Portfolio Page</title>
+</head>
+
+<body data-spy="scroll" data-target="#main-nav" data-offset="60">
+  <!-- Fixed Navbar -->
+  <nav id="main-nav" class="navbar navbar-default ">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <!-- Menu Toggle -->
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu"
+          aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="glyphicon glyphicon-menu-hamburger"></span>
+        </button>
+        <a class="navbar-brand scroll" href="#top"><img class="pull-left logo"
+            src="./imgs/newej-removebg-preview (1).png"
+            alt="EJ Logo"><span>Elijah Jimenez KING E</span></a>
+      </div>
+      <!-- Collapsible Menu -->
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a class="scroll" href="#top">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li><a class="scroll" href="#about">About Me</a></li>
+          <li><a class="scroll" href="#portfolio">Portfolio</a></li>
+          <li><button class="btn td-btn small outline pink" data-toggle="modal"
+              data-target="#contactModal">Contact</button></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+  <!-- Jumbotron -->
+  <header id="top" class="jumbotron">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-xs-6 col-xs-offset-3">
+          <img class="img-responsive center-block logo"
+            src="./imgs/BART.webp"
+            alt="EJ Logo">
+        </div>
+        <div class="col-xs-12">
+          <h1 class="title">Hi! My name is Elijah.</h1>
+          <p>I like to play basketball and am starting to learn how to code.</p>
+          <p>Nice to meet you.</p>
+          <a class="btn td-btn outline green scroll mt-30" href="#content" title="Learn more about me!"><span
+              class="glyphicon glyphicon-triangle-bottom"></span> Learn more</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Main Content Begins -->
+  <div id="content" class="container-fluid text-center">
+    <!-- About Me Section -->
+    <section id="about" class="row bg-white bg-shadow">
+      <div class="row">
+        <div class="col-xs-12">
+          <h1 class="mb-30">About Me</h1>
+        </div>
+      </div>
+      <div class="row mb-30">
+        <div class="col-xs-12 col-md-3 col-md-offset-1 col-lg-2 col-lg-offset-2">
+          <img class="img-responsive center-block profile mb-30"
+            src="./imgs/SQUIDY.png"
+            alt="SQUIDY">
+        </div>
+        <div class="col-sm-8 col-sm-offset-2 col-md-7 col-md-offset-0 col-lg-6 text-left">
+          <h4>Hello there! I'm a young genius who is lives in the Bay Area and I plan on building a video game or app
+            that can be monitized</h4>
+          <p>I found my early passion in sports at the young age of 6 and ever since have been
+            working on my skills to maybe one day make it pro. I am just starting to learn how to code
+            and am quickly catching on to how it works and especially how to type it.
+            I am 14 and my birthday is January 13th. I am a capricorn but I don't 100% believe in zodiac sign
+            compatibility and stuff.
+            I went to Oakland School of the Arts for middle school and am going to Salesian College Preparatory for
+            highschool.
+            I think that I am looking forward to meeting new people and getting to know a new school but at the same
+            time I am
+            a bit nervous</p>
+          <p>I recommend the hidden genius project because it has ressources that are great to have and has a community
+            that will
+            always be there for you.
+            It may be very intimidating to hear that it is a 15-month intensive but I guarantee that you will enjoy it
+            and be engaged at all times.
+            It also allows you integrate things that you are passionate about that just makes what your doing even more
+            fun.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-10 col-sm-offset-1">
+          <hr class="dashed">
+          <h2 class="mb-60">What I Do</h2>
+        </div>
+        <div class="col-sm-3 col-lg-2 col-lg-offset-2">
+          <img class="img-responsive center-block icon"
+            src="./imgs/bball.png"
+            alt="Responsive Web Design Icon">
+          <p>Basketball Player</p>
+        </div>
+        <div class="col-sm-3 col-lg-2">
+          <img class="img-responsive center-block icon"
+            src="./imgs/GGGGG.jpeg"
+            alt="UI/UX Design Icon">
+          <p>Gamer</p>
+        </div>
+        <div class="col-sm-3 col-lg-2">
+          <img class="img-responsive center-block icon"
+            src="./imgs/HHHHHH.jpeg"
+            alt="Development Icon">
+          <p>High Schooler</p>
+        </div>
+        <div class="col-sm-3 col-lg-2 mb-30">
+          <img class="img-responsive center-block icon"
+            src="./imgs/yurrrr.png"
+            alt="Identity and Branding Icon">
+          <p>Lucky 14</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <button class="btn td-btn outline green mt-30" data-toggle="modal" data-target="#resumeModal">View
+            my Resume</button>
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="row bg-star-y">
+      <div class="row">
+        <div class="col-xs-12">
+          <h1 class="mb-60">Portfolio</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div id="projects" class="carousel slide col-xs-12" data-ride="carousel" data-interval="false">
+          <div class="row">
+            <!-- Carousel Prev Button -->
+            <div class="col-xs-1">
+              <a class="left carousel-control" href="#projects" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+            </div>
+            <div class="col-xs-10">
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                  <div class="col-sm-7">
+                    <img class="img-responsive center-block mb-30"
+                      src="./imgs/pacman-removebg-preview.png"
+                      alt="Pacman Game">
+                  </div>
+                  <div class="col-sm-5">
+                    <div class="carousel-caption card">
+                      <h3>Pacman Scratch Game and Flappy Bird</h3>
+                      <h4>Simple Pacman Game and Flappy Bird Games w/ No Mods</h4>
+                      <button class="btn td-btn small outline green" data-toggle="modal"
+                        data-target="#tributeModal">Info and Game Link</button>
+                    </div>
+                  </div>
+                </div><!-- /.item -->
+                <div class="item">
+                  <div class="col-sm-7">
+                    <img class="img-responsive center-block mb-30"
+                      src="./imgs/rbot2.webp"
+                      alt="AI Chatbot">
+                  </div>
+                  <div class="col-sm-5">
+                    <div class="carousel-caption card">
+                      <h3>AI ChatBot</h3>
+                      <h4>Artificial Intelligent ChatBot that responds to certain questions that are asked</h4>
+                      <button class="btn td-btn small outline green" data-toggle="modal" data-target="#tmsModal">View
+                        Details</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="col-sm-7">
+                    <img class="img-responsive center-block mb-30"
+                      src="./imgs/giphy.gif" alt="Ryan Bechtel">
+                  </div>
+                  <div class="col-sm-5">
+                    <div class="carousel-caption card">
+                      <h3>Non-Responsive Recipe App</h3>
+                      <h4>Fun Recipe App</h4>
+                      <button class="btn td-btn small outline green" data-toggle="modal" data-target="#rbModal">View
+                        Details</button>
+                    </div>
+                  </div>
+                </div><!-- /.item -->
+              </div><!-- /.carousel-inner -->
+            </div>
+            <div class="col-xs-1">
+              <!-- Carousel Next Button -->
+              <a class="right carousel-control" href="#projects" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div><!-- / Next Btn -->
+            <div class="col-xs-12">
+              <!-- Indicators -->
+              <ol class="carousel-indicators mt-30">
+                <li data-target="#projects" data-slide-to="0" class="active"></li>
+                <li data-target="#projects" data-slide-to="1"></li>
+                <li data-target="#projects" data-slide-to="2"></li>
+              </ol>
+            </div><!-- /.col -->
+          </div><!-- /.row -->
+        </div><!-- /#projects -->
+      </div><!-- /.row -->
+    </section>
+    <!-- Contact Me Section -->
+    <section class="row bg-pink bg-shadow">
+      <div class="col-xs-12">
+        <h1 class="mb-30">Like what you see?</h1>
+        <button class="btn btn-default td-btn outline white" data-toggle="modal" data-target="#contactModal">Send me a
+          message!</button>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="row text-left bg-honeycomb">
+      <div class="col-xs-12 col-sm-6">
+        <h3>Latest Tweet</h3>
+        <div class="card mb-30">
+          <a class="twitter-timeline" href="https://wompampsupport.azureedge.net/fetchimage?siteId=7575&v=2&jpgQuality=100&width=700&url=https%3A%2F%2Fi.kym-cdn.com%2Fentries%2Ficons%2Fmobile%2F000%2F026%2F152%2Fgigachad.jpg" data-widget-id="329035628920573952"
+            data-chrome="noheader nofooter noborders transparent" data-tweet-limit="1" data-width="100%">Tweets by
+            @urTRASHKID</a>
+          <script>!function (d, s, id) {var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) {js = d.createElement(s); js.id = id; js.src = p + "://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs);} }(document, "script", "twitter-wjs");</script>
+        </div>
+      </div>
+      <div id="follow-me" class="col-xs-12 col-sm-5 col-sm-offset-1 mb-30">
+        <h3>Follow me!</h3>
+        <a class="social" href="https://wompampsupport.azureedge.net/fetchimage?siteId=7575&v=2&jpgQuality=100&width=700&url=https%3A%2F%2Fi.kym-cdn.com%2Fentries%2Ficons%2Fmobile%2F000%2F026%2F152%2Fgigachad.jpg" target="_blank" title="LinkedIn">
+          <img src="https://github.com/tiffanyadu/portfolio/blob/master/assets/icons/social/LinkedIn-black.png?raw=true"
+            alt="LinkedIn Icon">
+        </a>
+        <a class="social" href="https://wompampsupport.azureedge.net/fetchimage?siteId=7575&v=2&jpgQuality=100&width=700&url=https%3A%2F%2Fi.kym-cdn.com%2Fentries%2Ficons%2Fmobile%2F000%2F026%2F152%2Fgigachad.jpg" target="_blank" title="Twitter">
+          <img src="https://github.com/tiffanyadu/portfolio/blob/master/assets/icons/social/Twitter-black.png?raw=true"
+            alt="Twitter Icon">
+        </a>
+        <a class="social" href="https://www.instagram.com/iamelijahjimenez/" target="_blank" title="Instagram">
+          <img
+            src="https://github.com/tiffanyadu/portfolio/blob/master/assets/icons/social/Instagram-black.png?raw=true"
+            alt="Instagram Icon">
+        </a>
+        <a class="social" href="https://wompampsupport.azureedge.net/fetchimage?siteId=7575&v=2&jpgQuality=100&width=700&url=https%3A%2F%2Fi.kym-cdn.com%2Fentries%2Ficons%2Fmobile%2F000%2F026%2F152%2Fgigachad.jpg" target="_blank" title="Github">
+          <img src="https://github.com/tiffanyadu/portfolio/blob/master/assets/icons/social/Github-black.png?raw=true"
+            alt="Github Icon">
+        </a>
+        <a class="social" href="https://wompampsupport.azureedge.net/fetchimage?siteId=7575&v=2&jpgQuality=100&width=700&url=https%3A%2F%2Fi.kym-cdn.com%2Fentries%2Ficons%2Fmobile%2F000%2F026%2F152%2Fgigachad.jpg" target="_blank" title="Codepen">
+          <img src="https://github.com/tiffanyadu/portfolio/blob/master/assets/icons/social/Codepen-black.png?raw=true"
+            alt="Codepen Icon">
+        </a>
+      </div>
+      <div class="col-xs-12 text-center">
+        <hr class="dashed">
+        <h2>&ndash; Thanks for visiting! &ndash;</h2>
+        <small class="gray">Copyright &copy;
+          <script type="text/javascript">document.write(new Date().getFullYear());</script> Elijah J &mdash;
+          All Rights Reserved &mdash; Made with <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
+        </small>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Resume Modal -->
+  <div class="modal fade" id="resumeModal" tabindex="-1" role="dialog" aria-labelledby="resumeTitle">
+    <div class="modal-dialog wide" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+              aria-hidden="true">&times;</span></button>
+          <h3 class="modal-title text-center" id="resumeTitle">Resume</h3>
+        </div><!-- /.modal-header -->
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-lg-10 col-lg-offset-1">
+              <img src="./imgs/CHAD.gif" 
+            <h1>Why You LOOKING HERE 👀👀👀👀</h1>
+            </div>
+          </div>
+          <div class="modal-footer center">
+            <button type="button" class="btn td-btn outline small" data-dismiss="modal">Close
+              Resume</button>
+          </div><!-- /.modal-footer -->
+        </div><!-- /.modal-body -->
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+
+  <!-- Tribute Page Project Modal -->
+  <div class="modal fade" id="tributeModal" tabindex="-1" role="dialog" aria-labelledby="tributeTitle">
+    <div class="modal-dialog wide" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+              aria-hidden="true">&times;</span></button>
+          <h3 class="modal-title text-center" id="tributeTitle">Project Details</h3>
+        </div><!-- /.modal-header -->
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-xs-12 bg-star-g">
+              <img class="img-responsive center-block hero"
+                src="./imgs/ARCADE.png"
+                alt="Pacman and Flappy Bird">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 text-center">
+              <h2>Pacman and Flappy Bird</h2>
+              <h4>Responsive Web Design</h4>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-10 col-sm-offset-1 col-lg-6 col-lg-offset-0">
+              <p>My Pacman Game is a simple 2 level game where the goal is to collect all of the dots while trying to run away form
+                ghosts that are always chasing you. All while you are trying to score as much points as you can.
+              </p>
+              <p class="mb-30">My Flappy Bird Game is a infinite loop where you continue to dodge running into pipes
+                to increase your score.
+              </p>
+            </div>
+            <div class="col-sm-10 col-sm-offset-1 col-lg-6 col-lg-offset-0 md-center">
+              <p><strong>Technologies Used:</strong></p>
+              <p class="mb-30">
+                <span class="label tag">Scratch</span>
+                <span class="label tag">Responsive Design</span>
+                <span class="label tag">Unity</span>
+                <span class="label tag">Data Types</span>
+                <span class="label tag">Work</span>
+                <span class="label tag">C#</span>
+              </p>
+              <a class="btn td-btn outline green mb-30" href="./_partial/flappyBird" target="_blank"
+                title="Link to Tribute Page"><span class="glyphicon glyphicon-link"></span> Visit Flappy Bird</a>
+              <a class="btn td-btn outline green mb-30 iconBtn" href="https://scratch.mit.edu/projects/707758571"
+                target="_blank" title="Link to Tribute Page on CodePen"><img
+                  src="https://github.com/tiffanyadu/portfolio/blob/master/assets/icons/social/Codepen-green.png?raw=true"
+                  alt="Codepen Icon">Visit Pacman</a>
+            </div>
+          </div><!-- /.row -->
+          <div class="modal-footer center">
+            <button type="button" class="btn td-btn outline small" data-dismiss="modal">Close
+              Project</button>
+          </div><!-- /.modal-footer -->
+        </div><!-- /.modal-body -->
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+
+  <!-- Too Much Sauce Project Modal -->
+  <div class="modal fade" id="tmsModal" tabindex="-1" role="dialog" aria-labelledby="tmsTitle">
+    <div class="modal-dialog wide" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+              aria-hidden="true">&times;</span></button>
+          <h3 class="modal-title text-center" id="tmsTitle">Project Details</h3>
+        </div><!-- /.modal-header -->
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-xs-12 bg-star-g">
+              <img class="img-responsive center-block hero"
+                src="./imgs/ROBOT-removebg-preview.png"
+                alt="ROBOT">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 text-center">
+              <h2>AI ChatBot</h2>
+              <h4>Responsive Web Design</h4>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-10 col-sm-offset-1 col-lg-6 col-lg-offset-0">
+              <p>Different Questions That You Can Ask the AI ChatBot-</p>
+              <p class="mb-30">Funny(Jokes),
+                Greetings,
+                Farewells,
+                Anime,
+                Basketball,
+                Hidden Genius Project,
+                And Info About This Project
+              </p>
+            </div>
+            <div class="col-sm-10 col-sm-offset-1 col-lg-6 col-lg-offset-0 md-center">
+              <p><strong>Technologies Used:</strong></p>
+              <p class="mb-30">
+                <span class="label tag">Python</span>
+                <span class="label tag">Responsive Design</span>
+                <span class="label tag">AI</span>
+                <span class="label tag">Numpy</span>
+                <span class="label tag">VSCode</span>
+                <span class="label tag">Nltk</span>
+              </p>
+              <a class="btn td-btn outline green mb-30" href="https://github.com/elijahjimenez13/ai-chatbot" target="_blank"
+                title="Link to Too Much Sauce"><span class="glyphicon glyphicon-link"></span> Visit Live
+                Site</a>
+            </div>
+            <button type="button" class="btn td-btn outline small" data-dismiss="modal">Close
+              Project</button>
+          </div><!-- /.modal-footer -->
+        </div><!-- /.modal-body -->
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+
+  <!-- Ryan Bechtel Project Modal -->
+  <div class="modal fade" id="rbModal" tabindex="-1" role="dialog" aria-labelledby="rbTitle">
+    <div class="modal-dialog wide" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+              aria-hidden="true">&times;</span></button>
+          <h3 class="modal-title text-center" id="rbTitle">Project Details</h3>
+        </div><!-- /.modal-header -->
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-xs-12 bg-star-g">
+              <img class="img-responsive center-block hero"
+                src="./imgs/TABLEEEE.png"
+                alt="FOOD">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 text-center">
+              <h2>Non-Responsive Recipe App</h2>
+              <h4>Responsive Web Design</h4>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-10 col-sm-offset-1 col-lg-6 col-lg-offset-0">
+              <p>The Non-Responsive Recipe app is just a model and will not bring you to a page if you were to press 
+                any of the pictures or boxes.
+              </p>
+              <p class="mb-30"></p>
+            </div>
+            <div class="col-sm-10 col-sm-offset-1 col-lg-6 col-lg-offset-0 md-center">
+              <p><strong>Technologies Used:</strong></p>
+              <p class="mb-30">
+                <span class="label tag">Non-Responsive Design</span>
+                <span class="label tag">Work</span>
+                <span class="label tag">Work</span>
+                <span class="label tag">Kaylen</span>
+                <span class="label tag">VSCode</span>
+                <span class="label tag">Flutter</span>
+              </p>
+              <a class="btn td-btn outline green mb-30" href="https://github.com/elijahjimenez13/recipe_app" target="_blank"
+                title="Link to ryanbechtel.com"><span class="glyphicon glyphicon-link"></span> Visit
+                Live Site</a>
+            </div>
+          </div><!-- /.row -->
+          <div class="modal-footer center">
+            <button type="button" class="btn td-btn outline small" data-dismiss="modal">Close
+              Project</button>
+          </div><!-- /.modal-footer -->
+        </div><!-- /.modal-body -->
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+
+  <!-- Contact Modal -->
+  <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactTitle">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content bg-pink">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+              aria-hidden="true">&times;</span></button>
+          <h3 class="modal-title" id="contactTitle">Contact Me</h3>
+        </div><!-- /.modal-header -->
+        <div class="modal-body">
+          <form class="mb-15">
+            <div class="form-group">
+              <label class="sr-only" for="name">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+              <label class="sr-only" for="email">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+              <label class="sr-only" for="subject">Subject</label>
+              <input type="text" class="form-control" id="subject" placeholder="Subject" required>
+            </div>
+            <div class="form-group">
+              <label class="sr-only" for="message">Message</label>
+              <textarea class="form-control" id="message" rows="6" placeholder="Your message here..."
+                required></textarea>
+            </div>
+            <small>*All fields are required</small>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox"> I'm a robot!
+              </label>
+            </div>
+          </form>
+          <div class="modal-footer">
+            <button type="button" class="btn td-btn outline small white" data-dismiss="modal">Cancel</button>
+            <button type="submit" class="btn td-btn outline small white">Send Message</button>
+          </div><!-- /.modal-footer -->
+        </div><!-- /.modal-body -->
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+</body>
+
+</html>l
