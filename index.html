@@ -164,10 +164,25 @@
                   </div>
                   <div class="col-sm-5">
                     <div class="carousel-caption card">
-                      <h3>Pacman Scratch Game and Flappy Bird</h3>
-                      <h4>Simple Pacman Game and Flappy Bird Games w/ No Mods</h4>
+                      <h3>Pacman (Scratch Game)</h3>
+                      <h4>Simple Pacman Game w/ No Mods</h4>
                       <button class="btn td-btn small outline green" data-toggle="modal"
-                        data-target="#tributeModal">Info and Game Link</button>
+                        data-target="#psgModal">Info and Game Link</button>
+                    </div>
+                  </div>
+                </div><!-- /.item -->
+                <div class="item">
+                  <div class="col-sm-7">
+                    <img class="img-responsive center-block mb-30"
+                      src="./imgs/output-onlinegiftools.gif"
+                      alt="AI Chatbot">
+                  </div>
+                  <div class="col-sm-5">
+                    <div class="carousel-caption card">
+                      <h3>Flappy Bird</h3>
+                      <h4>Simple Flappy Bird Game w/ No Mods</h4>
+                      <button class="btn td-btn small outline green" data-toggle="modal" data-target="#fbgModal">View
+                        Details</button>
                     </div>
                   </div>
                 </div><!-- /.item -->
@@ -181,21 +196,51 @@
                     <div class="carousel-caption card">
                       <h3>AI ChatBot</h3>
                       <h4>Artificial Intelligent ChatBot that responds to certain questions that are asked</h4>
-                      <button class="btn td-btn small outline green" data-toggle="modal" data-target="#tmsModal">View
+                      <button class="btn td-btn small outline green" data-toggle="modal" data-target="#aicModal">View
                         Details</button>
                     </div>
                   </div>
-                </div>
+                </div><!-- /.item -->
                 <div class="item">
                   <div class="col-sm-7">
                     <img class="img-responsive center-block mb-30"
-                      src="./imgs/giphy.gif" alt="Ryan Bechtel">
+                      src="./imgs/giphy.gif"
+                      alt="Recipe App">
                   </div>
                   <div class="col-sm-5">
                     <div class="carousel-caption card">
                       <h3>Non-Responsive Recipe App</h3>
                       <h4>Fun Recipe App</h4>
-                      <button class="btn td-btn small outline green" data-toggle="modal" data-target="#rbModal">View
+                      <button class="btn td-btn small outline green" data-toggle="modal" data-target="#raModal">View
+                        Details</button>
+                    </div>
+                  </div>
+                </div><!-- /.item -->
+                <div class="item">
+                  <div class="col-sm-7">
+                    <img class="img-responsive center-block mb-30"
+                      src="./imgs/matrix.gif"
+                      alt="Recipe App">
+                  </div>
+                  <div class="col-sm-5">
+                    <div class="carousel-caption card">
+                      <h3>All of Summer's Code</h3>
+                      <h4>All of my summers work</h4>
+                      <button class="btn td-btn small outline green" data-toggle="modal" data-target="#mcModal">View
+                        Code</button>
+                    </div>
+                  </div>
+                </div><!-- /.item -->
+                <div class="item">
+                  <div class="col-sm-7">
+                    <img class="img-responsive center-block mb-30"
+                      src="./imgs/pencil.webp" alt="My Projects">
+                  </div>
+                  <div class="col-sm-5">
+                    <div class="carousel-caption card">
+                      <h3>All of Summer's PDF's</h3>
+                      <h4>All of my summers work</h4>
+                      <button class="btn td-btn small outline green" data-toggle="modal" data-target="#mpModal">View
                         Details</button>
                     </div>
                   </div>
@@ -215,6 +260,9 @@
                 <li data-target="#projects" data-slide-to="0" class="active"></li>
                 <li data-target="#projects" data-slide-to="1"></li>
                 <li data-target="#projects" data-slide-to="2"></li>
+                <li data-target="#projects" data-slide-to="3"></li>
+                <li data-target="#projects" data-slide-to="4"></li>
+                <li data-target="#projects" data-slide-to="5"></li>
               </ol>
             </div><!-- /.col -->
           </div><!-- /.row -->
@@ -300,14 +348,14 @@
     </div><!-- /.modal-dialog -->
   </div><!-- /.modal -->
 
-  <!-- Tribute Page Project Modal -->
-  <div class="modal fade" id="tributeModal" tabindex="-1" role="dialog" aria-labelledby="tributeTitle">
+  <!-- Paman Scratch Game -->
+  <div class="modal fade" id="psgModal" tabindex="-1" role="dialog" aria-labelledby="psgTitle">
     <div class="modal-dialog wide" role="document">
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
               aria-hidden="true">&times;</span></button>
-          <h3 class="modal-title text-center" id="tributeTitle">Project Details</h3>
+          <h3 class="modal-title text-center" id="psgTitle">Project Details</h3>
         </div><!-- /.modal-header -->
         <div class="modal-body">
           <div class="row">
@@ -319,8 +367,8 @@
           </div>
           <div class="row">
             <div class="col-sm-12 text-center">
-              <h2>Pacman and Flappy Bird</h2>
-              <h4>Responsive Web Design</h4>
+              <h2>Pacman (Scratch Game)</h2>
+              <h4>Responsive Game Design</h4>
             </div>
           </div>
           <div class="row">
@@ -328,26 +376,20 @@
               <p>My Pacman Game is a simple 2 level game where the goal is to collect all of the dots while trying to run away form
                 ghosts that are always chasing you. All while you are trying to score as much points as you can.
               </p>
-              <p class="mb-30">My Flappy Bird Game is a infinite loop where you continue to dodge running into pipes
-                to increase your score.
+              <p class="mb-30">
               </p>
             </div>
             <div class="col-sm-10 col-sm-offset-1 col-lg-6 col-lg-offset-0 md-center">
               <p><strong>Technologies Used:</strong></p>
               <p class="mb-30">
                 <span class="label tag">Scratch</span>
-                <span class="label tag">Responsive Design</span>
-                <span class="label tag">Unity</span>
-                <span class="label tag">Data Types</span>
-                <span class="label tag">Work</span>
-                <span class="label tag">C#</span>
               </p>
-              <a class="btn td-btn outline green mb-30" href="./_partial/flappyBird" target="_blank"
-                title="Link to Tribute Page"><span class="glyphicon glyphicon-link"></span> Visit Flappy Bird</a>
+              <a class="btn td-btn outline green mb-30" href="https://scratch.mit.edu/projects/707758571" target="_blank"
+                title="Link to PSC Page"><span class="glyphicon glyphicon-link"></span> Visit Pacman</a>
               <a class="btn td-btn outline green mb-30 iconBtn" href="https://scratch.mit.edu/projects/707758571"
-                target="_blank" title="Link to Tribute Page on CodePen"><img
+                target="_blank" title="Link to PSC Page on CodePen"><img
                   src="https://github.com/tiffanyadu/portfolio/blob/master/assets/icons/social/Codepen-green.png?raw=true"
-                  alt="Codepen Icon">Visit Pacman</a>
+                  alt="Codepen Icon">Visit Pacman 2</a>
             </div>
           </div><!-- /.row -->
           <div class="modal-footer center">
@@ -359,14 +401,62 @@
     </div><!-- /.modal-dialog -->
   </div><!-- /.modal -->
 
-  <!-- Too Much Sauce Project Modal -->
-  <div class="modal fade" id="tmsModal" tabindex="-1" role="dialog" aria-labelledby="tmsTitle">
+  <!-- Flappy Bird Game -->
+  <div class="modal fade" id="fbgModal" tabindex="-1" role="dialog" aria-labelledby="fbgTitle">
     <div class="modal-dialog wide" role="document">
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
               aria-hidden="true">&times;</span></button>
-          <h3 class="modal-title text-center" id="tmsTitle">Project Details</h3>
+          <h3 class="modal-title text-center" id="fbgTitle">Project Details</h3>
+        </div><!-- /.modal-header -->
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-xs-12 bg-star-g">
+              <img class="img-responsive center-block hero"
+                src="./imgs/tweetie.webp"
+                alt="Bird">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 text-center">
+              <h2>Flappy Bird (Unity Game)</h2>
+              <h4>Responsive Game Design</h4>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-10 col-sm-offset-1 col-lg-6 col-lg-offset-0">
+              <p>My Flappy Bird Game is a infinite loop where you continue to dodge running into pipes
+                to increase your score.-</p>
+              <p class="mb-30">
+              </p>
+            </div>
+            <div class="col-sm-10 col-sm-offset-1 col-lg-6 col-lg-offset-0 md-center">
+              <p><strong>Technologies Used:</strong></p>
+              <p class="mb-30">
+                <span class="label tag">Scratch</span>
+                <span class="label tag">Code: C#</span>
+              </p>
+              <a class="btn td-btn outline green mb-30" href="./_partial/flappyBird" target="_blank"
+                title="Flappy Bird Game"><span class="glyphicon glyphicon-link"></span> Visit Flappy Bird
+                </a>
+            </div>
+            <button type="button" class="btn td-btn outline small" data-dismiss="modal">Close
+              Project</button>
+          </div><!-- /.modal-footer -->
+        </div><!-- /.modal-body -->
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+
+  <!-- AI ChatBot -->
+  <div class="modal fade" id="aicModal" tabindex="-1" role="dialog" aria-labelledby="aicTitle">
+    <div class="modal-dialog wide" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+              aria-hidden="true">&times;</span></button>
+          <h3 class="modal-title text-center" id="aicTitle">Project Details</h3>
         </div><!-- /.modal-header -->
         <div class="modal-body">
           <div class="row">
@@ -391,22 +481,20 @@
                 Anime,
                 Basketball,
                 Hidden Genius Project,
-                And Info About This Project
+                And Info About This Project (Be Specific with the questions because it will not be able to answer to if question is to broad)
               </p>
             </div>
             <div class="col-sm-10 col-sm-offset-1 col-lg-6 col-lg-offset-0 md-center">
               <p><strong>Technologies Used:</strong></p>
               <p class="mb-30">
-                <span class="label tag">Python</span>
-                <span class="label tag">Responsive Design</span>
-                <span class="label tag">AI</span>
+                <span class="label tag">Code: Python</span>
                 <span class="label tag">Numpy</span>
                 <span class="label tag">VSCode</span>
                 <span class="label tag">Nltk</span>
               </p>
               <a class="btn td-btn outline green mb-30" href="https://github.com/elijahjimenez13/ai-chatbot" target="_blank"
-                title="Link to Too Much Sauce"><span class="glyphicon glyphicon-link"></span> Visit Live
-                Site</a>
+                title="Link to Too Much Sauce"><span class="glyphicon glyphicon-link"></span> GitHub Code
+                </a>
             </div>
             <button type="button" class="btn td-btn outline small" data-dismiss="modal">Close
               Project</button>
@@ -416,21 +504,21 @@
     </div><!-- /.modal-dialog -->
   </div><!-- /.modal -->
 
-  <!-- Ryan Bechtel Project Modal -->
-  <div class="modal fade" id="rbModal" tabindex="-1" role="dialog" aria-labelledby="rbTitle">
+  <!-- Recipe App -->
+  <div class="modal fade" id="raModal" tabindex="-1" role="dialog" aria-labelledby="raTitle">
     <div class="modal-dialog wide" role="document">
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
               aria-hidden="true">&times;</span></button>
-          <h3 class="modal-title text-center" id="rbTitle">Project Details</h3>
+          <h3 class="modal-title text-center" id="raTitle">Project Details</h3>
         </div><!-- /.modal-header -->
         <div class="modal-body">
           <div class="row">
             <div class="col-xs-12 bg-star-g">
               <img class="img-responsive center-block hero"
                 src="./imgs/whinnie.webp"
-                alt="FOOD">
+                alt="com%2Fentries%2Ficons%2Fmobile%2F000%2F026%2F152%2Fgigachad">
             </div>
           </div>
           <div class="row">
@@ -444,21 +532,159 @@
               <p>The Non-Responsive Recipe app is just a model and will not bring you to a page if you were to press 
                 any of the pictures or boxes.
               </p>
-              <p class="mb-30"></p>
             </div>
             <div class="col-sm-10 col-sm-offset-1 col-lg-6 col-lg-offset-0 md-center">
               <p><strong>Technologies Used:</strong></p>
               <p class="mb-30">
                 <span class="label tag">Non-Responsive Design</span>
-                <span class="label tag">Work</span>
-                <span class="label tag">Work</span>
                 <span class="label tag">Kaylen</span>
                 <span class="label tag">VSCode</span>
                 <span class="label tag">Flutter</span>
               </p>
               <a class="btn td-btn outline green mb-30" href="https://github.com/elijahjimenez13/recipe_app" target="_blank"
-                title="Link to ryanbechtel.com"><span class="glyphicon glyphicon-link"></span> Visit
-                Live Site</a>
+                title="My Projects"><span class="glyphicon glyphicon-link"></span> GitHub Code
+                </a>
+            </div>
+            <button type="button" class="btn td-btn outline small" data-dismiss="modal">Close
+              Project</button>
+          </div><!-- /.modal-footer -->
+        </div><!-- /.modal-body -->
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+
+  <!-- My Code -->
+  <div class="modal fade" id="mcModal" tabindex="-1" role="dialog" aria-labelledby="mcTitle">
+    <div class="modal-dialog wide" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+              aria-hidden="true">&times;</span></button>
+          <h3 class="modal-title text-center" id="mcTitle">Project Details</h3>
+        </div><!-- /.modal-header -->
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-xs-12 bg-star-g">
+              <img class="img-responsive center-block hero"
+                src="./imgs/matriox2.gif"
+                alt="com%2Fentries%2Ficons%2Fmobile%2F000%2F026%2F152%2Fgigachad">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 text-center">
+              <h2>All of Summer's Code</h2>
+              <h4>Summer's Work</h4>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-10 col-sm-offset-1 col-lg-6 col-lg-offset-0">
+              <p>Over summer we covered the History of Computers, Variables, Data Types, Arithmetic, Functoins, Conditionals, Loops, Arrays and here is the code of what we learned.
+              </p>
+            </div>
+            <div class="col-sm-10 col-sm-offset-1 col-lg-6 col-lg-offset-0 md-center">
+              <p><strong>Different Fundamentals Learned:</strong></p>
+              <p class="mb-30">
+                <span class="label tag">History of Computers</span>
+                <span class="label tag">Variables, Data Types, and Arithmetic</span>
+                <span class="label tag">Functions</span>
+                <span class="label tag">Conditionals</span>
+                <span class="label tag">Loops</span>
+                <span class="label tag">Arrays</span>
+              </p>
+              <a class="btn td-btn outline green mb-30" href="https://github.com/elijahjimenez13/vairables_datatypes" target="_blank"
+                title="My Projects"><span class="glyphicon glyphicon-link"></span> GitHub Code (1)
+              </a>
+              <a class="btn td-btn outline green mb-30 iconBtn" href="https://github.com/elijahjimenez13/variables_arithmetic"
+                target="_blank" title="Link to PSC Page on CodePen"><img
+                src="https://github.com/tiffanyadu/portfolio/blob/master/assets/icons/social/Codepen-green.png?raw=true"
+                alt="Codepen Icon">GitHub Code (2)
+                </a>
+              <a class="btn td-btn outline green mb-30 iconBtn" href="https://github.com/elijahjimenez13/more-on-variables"
+                target="_blank" title="Link to PSC Page on CodePen"><img
+                src="https://github.com/tiffanyadu/portfolio/blob/master/assets/icons/social/Codepen-green.png?raw=true"
+                alt="Codepen Icon">GitHub Code (3)
+                </a>
+              <a class="btn td-btn outline green mb-30 iconBtn" href="https://github.com/elijahjimenez13/intro_functions"
+                target="_blank" title="Link to PSC Page on CodePen"><img
+                src="https://github.com/tiffanyadu/portfolio/blob/master/assets/icons/social/Codepen-green.png?raw=true"
+                alt="Codepen Icon">GitHub Code (4)
+                </a>
+              <a class="btn td-btn outline green mb-30 iconBtn" href="https://github.com/elijahjimenez13/functions_tips-practice"
+                target="_blank" title="Link to PSC Page on CodePen"><img
+                src="https://github.com/tiffanyadu/portfolio/blob/master/assets/icons/social/Codepen-green.png?raw=true"
+                alt="Codepen Icon">GitHub Code (5)
+                </a>
+              <a class="btn td-btn outline green mb-30 iconBtn" href="https://github.com/elijahjimenez13/logic_operators"
+                target="_blank" title="Link to PSC Page on CodePen"><img
+                src="https://github.com/tiffanyadu/portfolio/blob/master/assets/icons/social/Codepen-green.png?raw=true"
+                alt="Codepen Icon">GitHub Code (6)
+                </a>
+              <a class="btn td-btn outline green mb-30 iconBtn" href="https://github.com/elijahjimenez13/intro-loops"
+                target="_blank" title="Link to PSC Page on CodePen"><img
+                src="https://github.com/tiffanyadu/portfolio/blob/master/assets/icons/social/Codepen-green.png?raw=true"
+                alt="Codepen Icon">GitHub Code (7)
+                </a>
+              <a class="btn td-btn outline green mb-30 iconBtn" href="https://github.com/elijahjimenez13/loops_iteration"
+                target="_blank" title="Link to PSC Page on CodePen"><img
+                src="https://github.com/tiffanyadu/portfolio/blob/master/assets/icons/social/Codepen-green.png?raw=true"
+                alt="Codepen Icon">GitHub Code (8)
+                </a>
+              <a class="btn td-btn outline green mb-30 iconBtn" href="https://github.com/elijahjimenez13/intro-arrays"
+                target="_blank" title="Link to PSC Page on CodePen"><img
+                src="https://github.com/tiffanyadu/portfolio/blob/master/assets/icons/social/Codepen-green.png?raw=true"
+                alt="Codepen Icon">GitHub Code (9)
+                </a>
+            </div>
+            <button type="button" class="btn td-btn outline small" data-dismiss="modal">Close
+              Project</button>
+          </div><!-- /.modal-footer -->
+        </div><!-- /.modal-body -->
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+
+  <!-- My Projects -->
+  <div class="modal fade" id="mpModal" tabindex="-1" role="dialog" aria-labelledby="mpTitle">
+    <div class="modal-dialog wide" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+              aria-hidden="true">&times;</span></button>
+          <h3 class="modal-title text-center" id="mpTitle">Project Details</h3>
+        </div><!-- /.modal-header -->
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-xs-12 bg-star-g">
+              <img class="img-responsive center-block hero"
+                src="./imgs/spongebob.gif"
+                alt="FOOD">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 text-center">
+              <h2>All of Summer's PDF</h2>
+              <h4>14 Filled out PDF's of Info about Different Coding Topic</h4>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-10 col-sm-offset-1 col-lg-6 col-lg-offset-0">
+              <p>Over summer we covered the History of Computers, Variables, Data Types, Arithmetic, Functoins, Conditionals, Loops, Arrays and here are the PDF's that cover the information that we learned.
+              </p>
+              <p class="mb-30"></p>
+            </div>
+            <div class="col-sm-10 col-sm-offset-1 col-lg-6 col-lg-offset-0 md-center">
+              <p><strong>Different Fundamentals Learned:</strong></p>
+              <p class="mb-30">
+                <span class="label tag">History of Computers</span>
+                <span class="label tag">Variables, Data Types, and Arithmetic</span>
+                <span class="label tag">Functions</span>
+                <span class="label tag">Conditionals</span>
+                <span class="label tag">Loops</span>
+                <span class="label tag">Arrays</span>
+              </p>
+              <a class="btn td-btn outline green mb-30" href="https://github.com/elijahjimenez13/recipe_app" target="_blank"
+                title="Link to ryanbechtel.com"><span class="glyphicon glyphicon-link"></span> Visit PDF's
+                </a>
             </div>
           </div><!-- /.row -->
           <div class="modal-footer center">

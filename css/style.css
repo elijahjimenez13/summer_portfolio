@@ -415,7 +415,7 @@ footer.row {
 /*** Project Modals ***/
 .hero {
   margin: 30px auto;
-  max-width: 900px;
+  max-width: 750px;
   width: 100%;
 }
 .label.tag {
@@ -464,7 +464,7 @@ footer.row {
   color: #fffefd;
 }
 .bg-star-g {
-  background: #7C7287 url(https://github.com/tiffanyadu/portfolio/blob/master/assets/imgs/green-star.png?raw=true) fixed;
+  background: #7C7287 url(breh) fixed;
   background-size: 60px;
   color: #fffefd;
 }
