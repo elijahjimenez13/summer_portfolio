@@ -145,7 +145,7 @@ hr {
   Jumbotron Styles
 ===================== */
 .jumbotron {
-  background: linear-gradient(rgba(255,254,253,0.9), rgba(255,254,253,0.9)), url("https://github.com/tiffanyadu/portfolio/blob/master/assets/imgs/jumbotron.jpg?raw=true") center center fixed;
+  background: linear-gradient(rgba(166,142,118,0.9), rgba(255,254,253,0.9)), url("https://static.wikia.nocookie.net/simpsons/images/f/f2/Screen_Shot_2013-05-03_at_2.24.19_PM.png") center center fixed;
   background-size: cover;
   height: 100%;
   margin: 0;
@@ -459,8 +459,8 @@ footer.row {
   position: relative;
 }
 .bg-star-y {
-  background: #ffce3f url(https://github.com/tiffanyadu/portfolio/blob/master/assets/imgs/yellow-star.png?raw=true) fixed;
-  background-size: 60px;
+  background: #ffce3f url(https://img.freepik.com/free-vector/close-up-minimalist-honeycomb-background-design_23-2148386679.jpg?w=2000) fixed;
+  background-size: 400px;
   color: #fffefd;
 }
 .bg-star-g {
